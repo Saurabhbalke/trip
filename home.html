@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trip</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    *{
+        text-align: center;
+    }
+    .navbar {
+        position: fixed;
+        z-index: 5;
+        font-size: 1.2rem;
+    }
+
+    .navbar a {
+        color: aliceblue;
+    }
+
+    .card {
+        margin: 12px;
+    }
+
+  
+
+    .icon {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    p{
+        line-height: 18px;
+        margin: 4px;
+    }
+
+    .icon:before,
+    .icon:after {
+        content: "";
+        flex: 1 1;
+        border-bottom: 1px solid;
+        margin: auto;
+    }
+
+    .icon:before {
+        margin-right: 10px
+    }
+
+    .icon:after {
+        margin-left: 10px
+    }
+    .box{
+        display: flex;
+
+    }
+    .box img{
+        border-radius: 50%;
+        width: 150px;
+        border: 2px solid white;
+        box-shadow: 3px 3px 3px grey;
+        margin: 15px;
+    }
+    .box-1{
+        margin: 12px;
+
+    }
+</style>
+
+<body>
+    <div class="navbar  ">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Our Packages</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link ">Sign Up</a>
+            </li>
+        </ul>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1600x700/?trip,travel" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>We plane your trips</h2>
+                    <h5>Some representative placeholder content for the first slide.</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x700/?tour,picnic" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                    <h2 class="align-item-center">Second slide label</h2>
+                    <h5>Some representative placeholder content for the second slide.</h5>
+                    <button class="btn btn-primary">start now</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x700/?travel,planning" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Third slide label</h2>
+                    <h5>Some representative placeholder content for the third slide.</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container my-5">
+        <h2 ><center>DID YOU KNOW ? </center></h2>
+        <span class="icon"><i class="fa fa-home w3-xxlarge "></i></span>
+        <p>What are the things you should always do on a trip? Plan a trip with us and we will tell you all about it</p>
+        <div class="box my-4">
+            <div class="box-1"> 
+                <img src="https://source.unsplash.com/300x300/?cloths,dressing" class="card-img-top" alt="...">
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem id veniam culpa consequuntur pariatur, accusantium laborum numquam provident quia a consectetur architecto corporis deleniti quasi modi expedita distinctio quae debitis?</p>
+            </div>
+            <div class="box-1">
+                <img src="https://source.unsplash.com/300x300/?hotels,picnic" class="card-img-top" alt="...">
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem id veniam culpa consequuntur pariatur, accusantium laborum numquam provident quia a consectetur architecto corporis deleniti quasi modi expedita distinctio quae debitis?</p>
+            </div>
+            <div class="box-1">
+                <img src="https://source.unsplash.com/300x300/?enjoy,moment" class="card-img-top" alt="...">
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem id veniam culpa consequuntur pariatur, accusantium laborum numquam provident quia a consectetur architecto corporis deleniti quasi modi expedita distinctio quae debitis?</p>
+            </div>
+            <div class="box-1">
+                <img src="https://source.unsplash.com/300x300/?local,attraction" class="card-img-top" alt="...">
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem id veniam culpa consequuntur pariatur, accusantium laborum numquam provident quia a consectetur architecto corporis deleniti quasi modi expedita distinctio quae debitis?</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h1>
+            <center>Our Packages</center>
+        </h1>
+        <span class="icon"><i class="fa fa-globe w3-xxlarge "></i></span>
+
+        <div class="card-group">
+            <div class="card">
+                <img src="https://source.unsplash.com/300x300/?trip,travel" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Maldives</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/300x300/?tour,picnic" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Dubai</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/300x300/?travel,planning" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Hawai</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+
+        <div class="card-group">
+            <div class="card">
+                <img src="https://source.unsplash.com/300x300/?trip,travel" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bankong</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/300x300/?tour,picnic" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">singapur</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/300x300/?travel,planning" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">New york</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Our Team</h1>
+        
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
